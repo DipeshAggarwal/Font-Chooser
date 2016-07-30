@@ -1,0 +1,36 @@
+
+@import 'https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Architects+Daughter|Asul|Athiti|Dosis|Farsan|Open+Sans|Open+Sans+Condensed:300|Poiret+One|Raleway|Ropa+Sans|Work+Sans';
+
+select {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+input {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+#cctName {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#cctTagLine {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.black {
+    color: royalblue;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="fonts/style.css">
+        <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+        <title>Choose the font CCT!</title>
+    </head>
+    
+    <body>
+        <div id="cctName">
+            Capital City Toastmasters
+        </div>
+        
+        <div id="cctTagLine">
+            Where the Stage is Yours
+        </div>
+        
+        <div>
+            Logo:
+            <select id="cctChoose">
+                <option value="Junction">Junction</option>
+                <option value="League Spartan">League Spartan</option>
+                <option value="League Gothic">League Gothic</option>
+                <option value="Open Sans">Open Sans</option>
+                <option value="Open Sans Condensed">Open Sans Condensed</option>
+                <option value="Abel">Abel</option>
+                <option value="Amatic SC">Amatic SC</option>
+                <option value="Architects Daughter">Architects Daughter</option>
+                <option value="Asul">Asul</option>
+                <option value="Athiti">Athiti</option>
+                <option value="Dosis">Dosis</option>
+                <option value="Farsan">Farsan</option>
+                <option value="Raleway">Raleway</option>
+                <option value="Poiret One">Poiret One</option>
+                <option value="Ropa Sans">Ropa Sans</option>
+                <option value="Work Sans">Work Sans</option>
+            </select>
+
+            Tagline:
+            <select id="cctTagLineChoose">
+                <option value="Junction">Junction</option>
+                <option value="League Spartan">League Spartan</option>
+                <option value="League Gothic">League Gothic</option>
+                <option value="Open Sans">Open Sans</option>
+                <option value="Open Sans Condensed">Open Sans Condensed</option>
+                <option value="Abel">Abel</option>
+                <option value="Amatic SC">Amatic SC</option>
+                <option value="Architects Daughter">Architects Daughter</option>
+                <option value="Asul">Asul</option>
+                <option value="Athiti">Athiti</option>
+                <option value="Dosis">Dosis</option>
+                <option value="Farsan">Farsan</option>
+                <option value="Raleway">Raleway</option>
+                <option value="Poiret One">Poiret One</option>
+                <option value="Ropa Sans">Ropa Sans</option>
+                <option value="Work Sans">Work Sans</option>
+            </select>
+        </div>
+        
+        <div>
+            Logo: <input type="text" id="cctColorText">
+            Tag Line: <input type="text" id="cctTagColorText">
+        </div>
+        
+    </body>
+
+    <script>
+        document.querySelector("#cctChoose").onchange = function(e) {
+            document.getElementById("cctName").style.fontFamily = this.value;
+        }
+        
+        document.querySelector("#cctTagLineChoose").onchange = function(e) {
+            document.getElementById("cctTagLine").style.fontFamily = this.value;
+        }
+        
+        document.querySelector("#cctColorText").onchange = function(e) {
+            document.getElementById("cctName").style.color = this.value;
+        }
+        
+        document.querySelector("#cctTagColorText").onchange = function(e) {
+            document.getElementById("cctTagLine").style.color = this.value;
+        }
+    </script>
+
+</html>
